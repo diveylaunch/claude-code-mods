@@ -1,5 +1,7 @@
 # Agent Panel
 
+<p align="center"><img src="../../assets/demo/demo-en.gif" width="460" alt="Agent Panel: agents working, filling their rows and finishing"></p>
+
 A live panel of Claude Code subagents. One row per agent: what it is doing, its type, model, effort, tokens, time, memory use and how far along it is. Animated stickers follow the kind of work, and large spends are highlighted.
 
 Install it from the marketplace:

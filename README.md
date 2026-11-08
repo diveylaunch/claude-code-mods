@@ -96,9 +96,19 @@ The mod runs inside Claude Code and makes no network requests. It reads agent ty
 /plugin marketplace remove claude-code-mods
 ```
 
-## More mods
+## More animations
 
-This repository is a marketplace: new mods will land in `plugins/`. Star it to follow along. Bugs and ideas go to [Issues](https://github.com/diveylaunch/claude-code-mods/issues).
+Want more Clawd? [clawd-pet](https://github.com/ItzSkyeYT/clawd-pet) by ItzSkyeYT is a desktop pet for Linux with dozens of animations. It is a separate project with its own terms, and its artwork is not included here.
+
+## All mods
+
+Every mod in this repository gets its own page.
+
+| Mod | What it does |
+|---|---|
+| [Agent Panel](plugins/agent-panel/README.md) | Live panel of Claude Code subagents |
+
+New mods will land in `plugins/`. Star the repository to follow along. Bugs and ideas go to [Issues](https://github.com/diveylaunch/claude-code-mods/issues).
 
 ## Credits and license
 

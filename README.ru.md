@@ -94,9 +94,19 @@ Claude Code не сообщает, насколько готов субаген�
 /plugin marketplace remove claude-code-mods
 ```
 
-## Другие моды
+## Больше анимаций
 
-Этот репозиторий работает как маркетплейс, новые моды будут появляться в `plugins/`. Поставьте звезду, чтобы не пропустить. Ошибки и идеи пишите в [Issues](https://github.com/diveylaunch/claude-code-mods/issues).
+Хотите больше Клодиков? [clawd-pet](https://github.com/ItzSkyeYT/clawd-pet) от ItzSkyeYT: питомец для рабочего стола Linux с десятками анимаций. Это отдельный проект со своими условиями, его рисунков здесь нет.
+
+## Все моды
+
+У каждого мода в этом репозитории своя страница.
+
+| Мод | Что делает |
+|---|---|
+| [Agent Panel](plugins/agent-panel/README.md) | Живая панель субагентов Claude Code |
+
+Новые моды будут появляться в `plugins/`. Поставьте звезду, чтобы не пропустить. Ошибки и идеи пишите в [Issues](https://github.com/diveylaunch/claude-code-mods/issues).
 
 ## Авторы и лицензии
 
