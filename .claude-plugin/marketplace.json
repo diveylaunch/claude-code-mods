@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-mods",
+  "owner": { "name": "diveylaunch", "url": "https://github.com/diveylaunch" },
+  "plugins": [
+    {
+      "name": "agent-panel",
+      "source": "./plugins/agent-panel",
+      "description": "Live panel for Claude Code subagents: type, model, effort, tokens, time, memory and progress of every agent."
+    }
+  ]
+}

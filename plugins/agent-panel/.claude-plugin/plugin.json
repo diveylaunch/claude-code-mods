@@ -1,0 +1,47 @@
+{
+  "name": "agent-panel",
+  "version": "0.1.0",
+  "description": "Live panel of subagents: type, model, effort, tokens, time, memory and the progress of each agent.",
+  "author": {
+    "name": "diveylaunch",
+    "url": "https://github.com/diveylaunch"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Panel language",
+      "description": "auto follows Claude Code's language setting, then the system locale; en, ru or he (Hebrew headings and buttons, English row labels)",
+      "default": "auto",
+      "options": [
+        "auto",
+        "en",
+        "ru",
+        "he"
+      ]
+    },
+    "autoOpen": {
+      "type": "string",
+      "title": "Open the agents panel",
+      "description": "first: open the panel when the first subagent of a session starts; off: only open it with /agent-panel",
+      "default": "first",
+      "options": [
+        "first",
+        "off"
+      ]
+    },
+    "reportProgress": {
+      "type": "string",
+      "title": "Ask subagents to report progress",
+      "description": "on: adds one line to each subagent prompt so the panel can show a real percent; off: no prompt change, the row fills by memory use in grey",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    }
+  },
+  "homepage": "https://github.com/diveylaunch/claude-code-mods",
+  "repository": "https://github.com/diveylaunch/claude-code-mods",
+  "license": "MIT AND CC-BY-NC-SA-4.0"
+}
