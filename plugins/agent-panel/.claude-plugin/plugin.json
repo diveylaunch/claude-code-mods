@@ -1,6 +1,6 @@
 {
   "name": "agent-panel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Live panel of subagents: type, model, effort, tokens, time, memory and the progress of each agent.",
   "author": {
     "name": "diveylaunch",

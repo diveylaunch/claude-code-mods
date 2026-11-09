@@ -109,7 +109,8 @@ export const rowSvg = (W: number, a: Row, at: number, w: Words, f: Fmt, ctx: { i
   const title = f.fit(running ? a.description || a.type : pastTitle(a.description || a.type), 13, W - 54 - rightW - 8)
   const hotTok = ctx.isTop || a.tokens >= HOT_TOKENS
   const hotMem = a.memory >= HOT_MEMORY
-  const lead = f.fit(`${a.type} · ${f.model} · `, 11, W - 54 - 150)
+  const tail = `${f.tokens(a.tokens)} · ${w.memory} ${a.memory}%`
+  const lead = `${f.fit(`${a.type} · ${f.model}`, 11, W - 54 - 8 - 18 - tail.length * 6.3)} · `
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${ROW_H}" viewBox="0 0 ${W} ${ROW_H}"><style>${CSS}</style>
 ${fillW ? `<rect x="0" y="2" width="${fillW}" height="${ROW_H - 4}" rx="6" fill="${fill}" fill-opacity=".09"/>` : ''}
 ${sprite(spriteFor(a, at, ctx.isLast), at, 6, 7, 42, 36, `f${Math.abs(hash(a.id))}`)}
